@@ -5,7 +5,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head><meta charset="UTF-8" /><script type="36b7300444f99c1ff792f0e4-text/javascript">if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script type="36b7300444f99c1ff792f0e4-text/javascript">(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.5.1",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),document.addEventListener("DOMContentLoaded",(()=>{this.p()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}k(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.M(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.M(t.target,"rocket-onclick","onclick"),this.O()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.M(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.O()}D(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}S(){return new Promise((t=>{this.T?this.O=t:t()}))}C(){this.T=!0}O(){this.T=!1}M(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}p(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&0!==i.indexOf("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i.html).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.j(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.P(this),this.F(this),this.q(),this.A(),this.I(),await this.U(this.delayedScripts.normal),await this.U(this.delayedScripts.defer),await this.U(this.delayedScripts.async);try{await this.W(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.S().then((()=>{this.D()})),this.N()}A(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/index.html")>0||""===navigator.vendor)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(function(){t.setAttribute("data-rocket-status","failed"),e()})),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed"),e()}}));t.setAttribute("data-rocket-status","skipped")}async U(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.U(t)):Promise.resolve()}I(){this.j([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}j(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o){const n=document.createElement("link");n.href=o,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),i.appendChild(n),this.trash.push(n)}})),document.head.appendChild(i)}P(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function n(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(n){t.everythingLoaded?o=n:e["rocket"+i]=o=n}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){if(o&&o.fn&&!t.allJQueries.includes(o)){o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])};const e=o.fn.on;o.fn.on=o.fn.init.prototype.on=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this},t.allJQueries.push(o)}e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async W(){this.domReadyFired=!0,await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}q(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),n=i.parentElement;let s=t.get(i);void 0===s&&(s=i.nextSibling,t.set(i,s));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),n.insertBefore(c,s)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.k(t)}}RocketLazyLoadScripts.run()})();</script>
   <!-- Meta -->
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -56,8 +56,8 @@
     // })();
   </script>
 
-  
-  
+
+
 
 <!-- Prefetch --><meta http-equiv="x-dns-prefetch-control" content="off">
 <link rel="dns-prefetch" href="http://use.typekit.net/" data-no-reload />
@@ -87,7 +87,7 @@
 	<meta property="og:title" content="博客 - SPHERE | 巴黎第八区的美食天堂" />
 	<meta property="og:url" content="https://restaurantsphere.com/zh/blog/" />
 	<meta property="og:site_name" content="巴黎 SPHERE 餐厅，巴黎八区的美食天堂" />
-	<meta property="og:image" content="https://restaurantsphere.com/app/uploads/2023/03/restaurant-sphere-paris-slider-salle-3.jpg" />
+	<meta property="og:image" content="app/uploads/2023/03/restaurant-sphere-paris-slider-salle-3.jpg" />
 	<meta property="og:image:width" content="1920" />
 	<meta property="og:image:height" content="1280" />
 	<meta property="og:image:type" content="image/jpeg" />
@@ -175,10 +175,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <a class="skip-link screen-reader-text" href="#content">转到内容</a>
 
-  
+
 <header id="masthead" class="site-header has-logo has-menu has-translation-module" role="banner">
 
-  
+
 
 <div class="site-branding">
 
@@ -186,14 +186,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <a href="../index.html" class="custom-logo-link" rel="home" aria-current="page">
         <img width="312" height="266" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20312%20266'%3E%3C/svg%3E" class="custom-logo" alt="巴黎 SPHERE 餐厅，巴黎八区的美食天堂" "312""266" fetchpriority="high"decoding ="async" title="logo-blanc-sphere" data-lazy-src="../../app/uploads/2023/03/logo-blanc-sphere.png" /><noscript><img width="312" height="266" src="../../app/uploads/2023/03/logo-blanc-sphere.png" class="custom-logo" alt="SPHERE | Restaurant à Paris, sensation gastronomique dans le 8e" width="312" height="266" fetchpriority="high" decoding="async" title="logo-blanc-sphere" /></noscript>      </a>
     </div>
-	
+
 						<p class="screen-reader-text"><a href="../index.html">巴黎 SPHERE 餐厅，巴黎八区的美食天堂</a></p>
-			
+
   </div><!-- .site-branding -->
-  
+
 	<nav id="header-navigation" class="header-navigation" role="navigation" aria-label="Header menu">
 			</nav><!-- #site-navigation -->
-  
+
 <div id="header-booking" class="header-booking bao-block-button wp-block-buttons is-content-justification-center is-style-default">
 
   <div class="wp-block-button is-style-outline">
@@ -207,12 +207,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <span class="button-label">礼券</span>
       </a>
     </div>
-  
+
 </div><!-- #header-booking -->  <!--Weglot 4.2.6--><aside data-wg-notranslate="" class="country-selector weglot-dropdown close_outside_click closed weglot-shortcode wg-" tabindex="0" aria-expanded="false" aria-label="Language selected: Simplified Chinese"><input id="wg1714137076662ba7f4bc55474" class="weglot_choice" type="checkbox" name="menu"/><label data-l="zh" tabindex="-1" for="wg1714137076662ba7f4bc55474" class="wgcurrent wg-li weglot-lang weglot-language flag-3 zh" data-code-language="zh" data-name-language="ZH"><span class="wglanguage-name">ZH</span></label><ul role="none"><li data-l="fr" class="wg-li weglot-lang weglot-language flag-3 fr" data-code-language="fr" role="option"><a title="Language switcher : French" class="weglot-language-fr" role="option" data-wg-notranslate="" href="../../blog/index.html">FR</a></li><li data-l="en" class="wg-li weglot-lang weglot-language flag-3 en" data-code-language="en" role="option"><a title="Language switcher : English" class="weglot-language-en" role="option" data-wg-notranslate="" href="../../en/blog/index.html">EN</a></li><li data-l="es" class="wg-li weglot-lang weglot-language flag-3 es" data-code-language="es" role="option"><a title="Language switcher : Spanish" class="weglot-language-es" role="option" data-wg-notranslate="" href="../../es/blog/index.html">ES</a></li><li data-l="de" class="wg-li weglot-lang weglot-language flag-3 de" data-code-language="de" role="option"><a title="Language switcher : German" class="weglot-language-de" role="option" data-wg-notranslate="" href="../../de/blog/index.html">DE</a></li><li data-l="it" class="wg-li weglot-lang weglot-language flag-3 it" data-code-language="it" role="option"><a title="Language switcher : Italian" class="weglot-language-it" role="option" data-wg-notranslate="" href="../../it/blog/index.html">IT</a></li><li data-l="nl" class="wg-li weglot-lang weglot-language flag-3 nl" data-code-language="nl" role="option"><a title="Language switcher : Dutch" class="weglot-language-nl" role="option" data-wg-notranslate="" href="../../nl/blog/index.html">NL</a></li><li data-l="ar" class="wg-li weglot-lang weglot-language flag-3 ar" data-code-language="ar" role="option"><a title="Language switcher : Arabic" class="weglot-language-ar" role="option" data-wg-notranslate="" href="../../ar/blog/index.html">AR</a></li><li data-l="ru" class="wg-li weglot-lang weglot-language flag-3 ru" data-code-language="ru" role="option"><a title="Language switcher : Russian" class="weglot-language-ru" role="option" data-wg-notranslate="" href="../../ru/blog/index.html">RU</a></li><li data-l="pt-br" class="wg-li weglot-lang weglot-language flag-3 br" data-code-language="br" role="option"><a title="Language switcher : Brazilian Portuguese" class="weglot-language-pt-br" role="option" data-wg-notranslate="" href="../../pt-br/blog/index.html">PT-BR</a></li></ul></aside>    <div class="menu-button-container">
     <button id="primary-mobile-menu" class="button" aria-controls="primary-menu-list" aria-expanded="false" aria-label="Menu"><span class="menu-button-text">菜单</span></button><!-- #primary-mobile-menu -->
 
       </div><!-- .menu-button-container -->
-  
+
 </header><!-- #masthead -->
 
   <div id="page-content" class="page-content" data-scroll-content>
@@ -222,20 +222,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <main id="main" class="site-main" role="main">
 
   <section class="index-archive archive-page page-display-header has-header-style-classic page-no-thumbnail">
-    
+
     <header class="page-header entry-header archive-header block is-style-classic">
 
   <h1 class="entry-title page-title has-text-align-center reveal-on-scroll ros-blockReveal ros-to-right ros-delay-1">
     <span class="no-marquee js-scroll-item js-spring">博客</span>
   </h1>
 
-  
+
 </header><!-- .page-header -->
     <div class="bloglist is-layout-flex wp-block-columns is-style-default alignwide">
-      
+
 <article id="post-3866" class="is-layout-flow wp-block-column bloglist-item faux-link reveal-on-scroll js-scroll-item js-parallax scroll-not-mobile post-3866 post type-post status-publish format-standard hentry category-non-classe entry" data-href="https://restaurantsphere.com/zh/la-gastronomie-a-paris-au-cours-des-trois-derniers-siecles/" data-parallax-from="50" data-spring-ease="0.1">
 
-  
+
 <header class="entry-header">
   <div class="reveal-on-scroll ros-blockReveal ros-to-bottom">
       </div>
@@ -247,10 +247,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <p>巴黎美食以其丰富、多样和精致而闻名于世。在过去的三个世纪中，巴黎经历了迷人的烹饪演变，其特点是名厨辈出、烹饪技术不断演变以及跨文化影响。十八世纪：法国美食的黄金时代 十八世纪，法国美食的黄金时代......<a class="more-link" href="../la-gastronomie-a-paris-au-cours-des-trois-derniers-siecles/index.html">继续阅读<span class="screen-reader-text">过去三个世纪中的巴黎美食</span></a></p>
     </div>
 
-        
+
         <footer class="entry-footer default-max-width">
       <span class="posted-on">出版日期 <time class="entry-date published updated" datetime="2023-05-23T10:57:08+02:00">2023 年 5 月 23 日</time></span><div class="post-taxonomies"><span class="cat-links">分类为<a href="../non-classe/index.html" rel="category tag">未分类</a> </span></div>    </footer><!-- .entry-footer -->
-    
+
   </div><!-- .entry-content -->
 
 </article><!-- #post-${ID} -->
@@ -259,12 +259,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         <div class="pagination-wrapper alignwide">
           </div>
-    
+
   </section>
 
         </main><!-- #main -->
 
-        
+
       </div><!-- #primary -->
     </div><!-- #content -->
 
@@ -281,18 +281,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
               </div><!-- .site-name -->
 
-      
+
       <div class="site-info site-info--top">
 
                   <p class="site-contact-address">18, rue la Boetie, 75008 Paris</p>
-        
+
                   <p class="site-contact-phone">电话：<a href="tel:01 44 90 02 95">01 44 90 02 95</a></p>
-        
+
                   <p class="site-contact-hours">开放时间：周二至周日：12:00-14:30 和 19:00-22:30（周一关闭）<br />
 <small>周五、周六和周日晚间提供汽车服务（费用 20 欧元）</small></p>
-        
-        
-        
+
+
+
                   <nav aria-label="Social menu" class="social-navigation">
             <ul class="footer-navigation-wrapper">
               <li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a title="在 Facebook 上关注我们" target="_blank" rel="noopener" href="https://www.facebook.com/sphere.restaurant.paris"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="screen-reader-text">在 Facebook 上</span></a></li>
@@ -300,13 +300,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a title="在 Youtube 上关注我们" target="_blank" rel="noopener" href="https://www.youtube.com/@lesmeilleursrestaurantsdeparis"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg><span class="screen-reader-text">Youtube</span></a></li>
             </ul><!-- .social-navigation-wrapper -->
           </nav><!-- .social-navigation -->
-        
+
       </div><!-- .site-info -->
 
-      
+
       <div class="site-info site-info--bottom">
-                
-        
+
+
                   <nav aria-label="Menu secondaire" class="footer-navigation powered-by">
             <ul class="footer-navigation-wrapper">
               <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="../mentions-legales/index.html"><span>法律信息</span></a></li>
@@ -314,28 +314,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="../sitemap/index.html"><span>网站地图</span></a></li>
             </ul><!-- .footer-navigation-wrapper -->
           </nav><!-- .footer-navigation -->
-        
-        
+
+
       </div><!-- .site-info -->
-      
+
     </footer><!-- #colophon -->
-    
-    
+
+
   </div><!-- #page-content -->
 
   <div id="page-menu" class="page-menu has-secondary-menu">
       <nav id="site-navigation" class="primary-navigation" role="navigation" aria-label="Menu principal">
-      
-      <div class="primary-menu-container"><ul id="primary-menu-list" class="menu-wrapper js-hoverlist"><li id="menu-item-3979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3979 js-hoverlist-item"><a href="../notre-menu/index.html">La Carte</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="斯菲尔餐厅的开胃菜总是充满创意" decoding="async" data-lazy-srcset="https://restaurantsphere.com/app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="Les amuses bouches du Sphère sont toujours créatifs" data-lazy-src="../../app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg" class="js-hoverlist-img" alt="Les amuses bouches du Sphère sont toujours créatifs" decoding="async" srcset="https://restaurantsphere.com/app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="Les amuses bouches du Sphère sont toujours créatifs" /></noscript></li>
-<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94 js-hoverlist-item"><a title="探索斯费尔餐厅" href="../restaurant-gastronomique/index.html">餐厅</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="sphere restaurant salle DSC0429 1200x1200 - 过去三个世纪巴黎的美食文化" decoding="async" data-lazy-srcset="https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-salle-DSC0429-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" data-lazy-src="../../app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg" class="js-hoverlist-img" alt="sphere restaurant salle DSC0429 1200x1200 - La gastronomie à Paris au cours des trois derniers siècles" decoding="async" srcset="https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-salle-DSC0429-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" /></noscript></li>
+
+      <div class="primary-menu-container"><ul id="primary-menu-list" class="menu-wrapper js-hoverlist"><li id="menu-item-3979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3979 js-hoverlist-item"><a href="../notre-menu/index.html">La Carte</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="斯菲尔餐厅的开胃菜总是充满创意" decoding="async" data-lazy-srcset="app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg 1200w, app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="Les amuses bouches du Sphère sont toujours créatifs" data-lazy-src="../../app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg" class="js-hoverlist-img" alt="Les amuses bouches du Sphère sont toujours créatifs" decoding="async" srcset="app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-1200x1200.jpg 1200w, app/uploads/2023/03/restaurant-paris-sphere-plat-DSC6519-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="Les amuses bouches du Sphère sont toujours créatifs" /></noscript></li>
+<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94 js-hoverlist-item"><a title="探索斯费尔餐厅" href="../restaurant-gastronomique/index.html">餐厅</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="sphere restaurant salle DSC0429 1200x1200 - 过去三个世纪巴黎的美食文化" decoding="async" data-lazy-srcset="app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg 1200w, app/uploads/2023/03/sphere-restaurant-salle-DSC0429-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" data-lazy-src="../../app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg" class="js-hoverlist-img" alt="sphere restaurant salle DSC0429 1200x1200 - La gastronomie à Paris au cours des trois derniers siècles" decoding="async" srcset="app/uploads/2023/03/sphere-restaurant-salle-DSC0429-1200x1200.jpg 1200w, app/uploads/2023/03/sphere-restaurant-salle-DSC0429-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" /></noscript></li>
 <li id="menu-item-2141" class="header-gift-link menu-item menu-item-type-custom menu-item-object-custom menu-item-2141 js-hoverlist-item"><a title="提供球体" target="_blank" rel="noopener" class="header-gift-link" href="https://bookings.zenchef.com/shop?rid=358497">提供球体</a><img class="js-hoverlist-img lazyload" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20570%20570'%3E%3C/svg%3E" alt="提供球体" width="570" height="570" data-lazy-src="../../app/themes/sphere/assets/images/menu-item.webp"><noscript><img class="js-hoverlist-img lazyload" src="../../app/themes/sphere/assets/images/menu-item.webp" alt="Offrez le Sphère" width="570" height="570" loading="lazy"></noscript></li>
-<li id="menu-item-3920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3920 js-hoverlist-item"><a href="../presse/index.html">La Presse</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="restaurant sphere paris 8 ambiance 3 1200x1200 - 过去三个世纪巴黎的美食文化" decoding="async" data-lazy-srcset="https://restaurantsphere.com/app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.67%;max-width:1920px;" title="La gastronomie à Paris au cours des trois derniers siècles" data-lazy-src="../../app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg" class="js-hoverlist-img" alt="restaurant sphere paris 8 ambiance 3 1200x1200 - La gastronomie à Paris au cours des trois derniers siècles" decoding="async" srcset="https://restaurantsphere.com/app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.67%;max-width:1920px;" title="La gastronomie à Paris au cours des trois derniers siècles" /></noscript></li>
-<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81 js-hoverlist-item"><a title="联系斯菲尔餐厅" href="../contact/index.html">联系方式</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="sphere restaurant paris chef DSC0523 1200x1200 - 过去三个世纪巴黎的美食文化" decoding="async" data-lazy-srcset="https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" data-lazy-src="../../app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg" class="js-hoverlist-img" alt="sphere restaurant paris chef DSC0523 1200x1200 - La gastronomie à Paris au cours des trois derniers siècles" decoding="async" srcset="https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg 1200w, https://restaurantsphere.com/app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" /></noscript></li>
+<li id="menu-item-3920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3920 js-hoverlist-item"><a href="../presse/index.html">La Presse</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="restaurant sphere paris 8 ambiance 3 1200x1200 - 过去三个世纪巴黎的美食文化" decoding="async" data-lazy-srcset="app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg 1200w, app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.67%;max-width:1920px;" title="La gastronomie à Paris au cours des trois derniers siècles" data-lazy-src="../../app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg" class="js-hoverlist-img" alt="restaurant sphere paris 8 ambiance 3 1200x1200 - La gastronomie à Paris au cours des trois derniers siècles" decoding="async" srcset="app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-1200x1200.jpg 1200w, app/uploads/2023/03/restaurant-sphere-paris-8-ambiance-3-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.67%;max-width:1920px;" title="La gastronomie à Paris au cours des trois derniers siècles" /></noscript></li>
+<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81 js-hoverlist-item"><a title="联系斯菲尔餐厅" href="../contact/index.html">联系方式</a><img width="1200" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201200'%3E%3C/svg%3E" class="js-hoverlist-img" alt="sphere restaurant paris chef DSC0523 1200x1200 - 过去三个世纪巴黎的美食文化" decoding="async" data-lazy-srcset="app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg 1200w, app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-800x800.jpg 800w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" data-lazy-src="../../app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg" /><noscript><img width="1200" height="1200" src="../../app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg" class="js-hoverlist-img" alt="sphere restaurant paris chef DSC0523 1200x1200 - La gastronomie à Paris au cours des trois derniers siècles" decoding="async" srcset="app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-1200x1200.jpg 1200w, app/uploads/2023/03/sphere-restaurant-paris-chef-DSC0523-800x800.jpg 800w" sizes="(max-width: 1200px) 100vw, 1200px" style="width:100%;height:66.65%;max-width:2048px;" title="La gastronomie à Paris au cours des trois derniers siècles" /></noscript></li>
 </ul><ul id="menu-menu-secondaire" class="secondary-menu-wrapper menu-wrapper"><li id="menu-item-3846" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3433 current_page_item current_page_parent menu-item-3846"><a href="index.html" aria-current="page">博客</a></li>
 <li id="menu-item-4003" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4003"><a href="../restaurant-gastronomique-paris/index.html">巴黎美食餐厅</a></li>
 </ul><div class="menu-contact"><address class="menu-contact-address"><p><span class="menu-contact-address-address">18, rue la Boetie, 75008 Paris</span>.<span class="menu-contact-address-phone">电话：01 44 90 02 95</span><br/><span class="menu-contact-address-hours">开放时间：周二至周日：12:00-14:30 和 19:00-22:30（周一闭馆）<br />
 <small>周五、周六和周日晚上提供代客泊车服务（费用 20 欧元）</small></span></p></address></div></div>    </nav><!-- #site-navigation -->
-  
+
   <div class="site-logo">
     <a href="../index.html" class="custom-logo-link" rel="home" aria-current="page">
             <picture decoding="async" loading="lazy">
@@ -344,7 +344,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </picture>
     </a>
   </div>
-  
+
   <div id="menu-booking" class="menu-booking bao-block-button wp-block-buttons is-content-justification-center is-style-large-and-icon-top">
     <div class="wp-block-button is-style-outline">
       <a id="menu-book-link" class="booking-link wp-block-button__link" href="https://bookings.zenchef.com/results?rid=358497" title="预订" target="_blank" rel="noopener">
@@ -395,7 +395,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </picture>
   </div>
     <span id="pageloader__progress" class="pageloader__progress"></span>
-  
+
   <div id="overlay" class="overlay is-opened">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none">
       <path id="overlay-path" fill="#BD9561" vector-effect="non-scaling-stroke" d="M 0 100 V 0 Q 50 0 100 0 V 100 z"/>

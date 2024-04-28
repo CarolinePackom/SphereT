@@ -7,100 +7,72 @@
     z-index: -1;
     position: absolute;
     top: 0;
-    .div-carousel__div-wrapper {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        overflow: hidden;
-        margin: auto;
-        div:not(:has(.div-slide__title-contact)) {
-            width: 100%;
-            height: 100%;
-            animation: carousel 60s infinite;
-            position: absolute;
-            opacity: 0;
-        }
-
-        .div-wrapper__div-slide {
-            .div-slide__figure {
-                height: 100%;
-            }
-            .figure__img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: center;
-            }
-
-            .div-slide__title {
-                white-space: nowrap;
-                font-family: Cormorant, sans-serif;
-                font-size: 40px;
-                color: #FFF;
-                position: absolute;
-                top: 65%;
-                left:50%;
-                transform: translateX(-50%);
-            }
-        }
-
-        .slide1 {
-            animation-delay: 0s !important;
-        }
-
-        .slide2 {
-            animation-delay: 12s !important;
-        }
-
-        .slide3 {
-            animation-delay: 24s !important;
-        }
-
-        .slide4 {
-            animation-delay: 36s !important;
-        }
-
-        .slide5 {
-            animation-delay: 48s !important;
-        }
-    }
+}
+.header__div--carousel .div-carousel__div-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.header__div--carousel .div-carousel__div-wrapper div:not(:has(.div-slide__title-contact)) {
+    width: 100%;
+    height: 100%;
+    animation: carousel 60s infinite;
+    position: absolute;
+    opacity: 0;
+}
+.header__div--carousel .div-carousel__div-wrapper .div-wrapper__div-slide .div-slide__figure {
+    height: 100%;
+}
+.header__div--carousel .div-carousel__div-wrapper .div-wrapper__div-slide .figure__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.header__div--carousel .div-carousel__div-wrapper .div-wrapper__div-slide .div-slide__title {
+    white-space: nowrap;
+    font-family: Cormorant, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header__div--carousel .div-carousel__div-wrapper .slide1 {
+    animation-delay: 0s !important;
+}
+.header__div--carousel .div-carousel__div-wrapper .slide2 {
+    animation-delay: 12s !important;
+}
+.header__div--carousel .div-carousel__div-wrapper .slide3 {
+    animation-delay: 24s !important;
+}
+.header__div--carousel .div-carousel__div-wrapper .slide4 {
+    animation-delay: 36s !important;
+}
+.header__div--carousel .div-carousel__div-wrapper .slide5 {
+    animation-delay: 48s !important;
 }
 @media screen and (max-width: 992px) {
-    .header__div--carousel {
-        & .div-carousel__div-wrapper {
-            & .div-wrapper__div-slide {
-                .div-slide__title {
-                    font-size: 2rem;
-                }
-            }
-        }
+    .header__div--carousel .div-carousel__div-wrapper .div-wrapper__div-slide .div-slide__title {
+        font-size: 2rem;
     }
 }
-
 @media screen and (max-width: 768px) {
-    .header__div--carousel {
-        & .div-carousel__div-wrapper {
-            & .div-wrapper__div-slide {
-                .div-slide__title {
-                    font-size: 2rem;
-                    text-align: center;
-                    white-space: normal;
-                    top: 45%;
-                }
-            }
-        }
+    .header__div--carousel .div-carousel__div-wrapper .div-wrapper__div-slide .div-slide__title {
+        font-size: 2rem;
+        text-align: center;
+        white-space: normal;
+        top: 45%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .header__div--carousel .div-carousel__div-wrapper .div-wrapper__div-slide .div-slide__title {
+        font-size: 1.5rem;
+        top: 50%;
     }
 }
 
-@media screen and (max-width: 576px) {
-    .header__div--carousel {
-        & .div-carousel__div-wrapper {
-            & .div-wrapper__div-slide {
-                .div-slide__title {
-                    font-size: 1.5rem;
-                    top: 50%;
-                }
-            }
-        }
-    }
-}

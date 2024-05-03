@@ -1072,7 +1072,7 @@ embed, iframe, object, video {
 }
 
 [data-image] {
-    cursor: url("app/themes/sp-t3/assets/images/plus_cursor.png") 25 25, pointer
+    cursor: url("/app/themes/sp-t3/assets/images/plus_cursor.png") 25 25, pointer
 }
 
 strong {
@@ -4115,7 +4115,7 @@ body .is-layout-flex > * {
 
 @font-face {
     font-family: 'Futura Std';
-    src: url("app/themes/sphere/assets/fonts/futura-std/FuturaStdBook.woff") format("woff");
+    src: url("/app/themes/sphere/assets/fonts/futura-std/FuturaStdBook.woff") format("woff");
     font-style: normal;
     font-weight: 400;
     font-display: swap
@@ -4123,7 +4123,7 @@ body .is-layout-flex > * {
 
 @font-face {
     font-family: 'Futura Std';
-    src: url("app/themes/sphere/assets/fonts/futura-std/FuturaStdMedium.woff") format("woff");
+    src: url("/app/themes/sphere/assets/fonts/futura-std/FuturaStdMedium.woff") format("woff");
     font-style: normal;
     font-weight: 700;
     font-display: swap
@@ -4131,7 +4131,7 @@ body .is-layout-flex > * {
 
 @font-face {
     font-family: 'Saol Display';
-    src: url("app/themes/sphere/assets/fonts/saoldisplay/SaolDisplay-Regular.woff2") format("woff2"), url("app/themes/sphere/assets/fonts/saoldisplay/SaolDisplay-Regular.woff") format("woff");
+    src: url("/app/themes/sphere/assets/fonts/saoldisplay/SaolDisplay-Regular.woff2") format("woff2"), url("/app/themes/sphere/assets/fonts/saoldisplay/SaolDisplay-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
     font-display: swap
